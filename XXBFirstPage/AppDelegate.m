@@ -4,7 +4,6 @@
 //
 //  Created by xxb on 15/7/10.
 //  Copyright (c) 2015年 xxb. All rights reserved.
-//00000000000000
 
 #import "AppDelegate.h"
 #import "XXBMainViewController.h"
@@ -22,6 +21,7 @@
     _window.rootViewController = na;
     [_window makeKeyAndVisible];
     
+    // ndfjsfshfj
     return YES;
 }
 
