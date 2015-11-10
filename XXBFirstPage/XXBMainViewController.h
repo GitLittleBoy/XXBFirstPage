@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  XXBMainViewController.h
 //  XXBFirstPage
 //
 //  Created by xxb on 15/7/10.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface XXBMainViewController : UIViewController
 
 @end
-

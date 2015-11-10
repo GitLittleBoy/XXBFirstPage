@@ -4,10 +4,10 @@
 //
 //  Created by xxb on 15/7/10.
 //  Copyright (c) 2015年 xxb. All rights reserved.
-//
+//00000000000000
 
 #import "AppDelegate.h"
-
+#import "XXBMainViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    _window =[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    UINavigationController *na = [[UINavigationController alloc] initWithRootViewController:[[XXBMainViewController alloc] init]];
+    _window.rootViewController = na;
+    [_window makeKeyAndVisible];
+    
     return YES;
 }
 
